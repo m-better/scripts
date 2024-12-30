@@ -1,4 +1,4 @@
-repeat task.wait() until game:IsLoaded()
+repeat wait() until game:IsLoaded()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
 
