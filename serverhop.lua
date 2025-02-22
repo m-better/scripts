@@ -1,3 +1,4 @@
+wait(30)
 local Number = 0
 local SomeSRVS = {}
 for _, v in ipairs(game:GetService("HttpService"):JSONDecode(game:HttpGetAsync("https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100")).data) do
